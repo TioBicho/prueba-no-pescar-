@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Annotation profile for ms-detalleventas" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
+        </processorPath>
+        <module name="ms-detalleventas" />
+      </profile>
+      <profile name="Annotation profile for ms_eureka" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
+        </processorPath>
+        <module name="ms_api" />
+        <module name="ms-usuarios" />
+        <module name="ms-tiporopa" />
+        <module name="ms-envios" />
+        <module name="ms_eureka" />
+        <module name="ms-empleados" />
+        <module name="ms-stock" />
+        <module name="ms-ventas" />
+        <module name="ms-cliente" />
+        <module name="ms-perfil" />
+        <module name="ms-regiones" />
+        <module name="ms-categorias" />
+        <module name="ms-prendas" />
+        <module name="ms-sucursal" />
+        <module name="ms-nominas" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ms-tipocliente" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ms-categorias" options="-parameters" />
+      <module name="ms-cliente" options="-parameters" />
+      <module name="ms-detalleventas" options="-parameters" />
+      <module name="ms-empleados" options="-parameters" />
+      <module name="ms-envios" options="-parameters" />
+      <module name="ms-nominas" options="-parameters" />
+      <module name="ms-perfil" options="-parameters" />
+      <module name="ms-prendas" options="-parameters" />
+      <module name="ms-regiones" options="-parameters" />
+      <module name="ms-stock" options="-parameters" />
+      <module name="ms-sucursal" options="-parameters" />
+      <module name="ms-tipocliente" options="-parameters" />
+      <module name="ms-tiporopa" options="-parameters" />
+      <module name="ms-usuarios" options="-parameters" />
+      <module name="ms-ventas" options="-parameters" />
+      <module name="ms_api" options="-parameters" />
+      <module name="ms_eureka" options="-parameters" />
+    </option>
+  </component>
+</project>
